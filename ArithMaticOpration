@@ -1,0 +1,36 @@
+
+var a=50;
+var b=20;
+var c=30;
+
+var num1=a+b*c;
+var num2=c+a/b;
+var num3=a%b+c;
+var num4=a*b+c;
+
+var result1;
+var result2;
+var result3;
+var result4;
+ // compare First Two 
+if (num1 > num2 && num1>num3 && num1>num4){
+   console.log(num1 + " Num 1 is Greather")
+}
+
+// Compare Next Two
+if (num2 > num1 && num2>num3 && num2>num4){
+    console.log(num1 + " Num 2 is Greather");
+}
+
+// Comapre Maximum and Minimum Value 
+
+// minimum value
+if(num3 > num1 && num3>num2 && num3>num4){
+    console.log(num1 + " Num 3 is Greather");
+}
+
+
+// maximum Value
+if(num4 > num1 && num4>num2 && num4>num3){
+    console.log(num1 + " Num 4 is Greather");
+}
